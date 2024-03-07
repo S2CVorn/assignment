@@ -1,0 +1,278 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap");
+
+html {
+  font-size: 62.5%;
+}
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  font-size: 1rem;
+}
+ul {
+  display: block;
+  list-style-type: none;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  padding-inline-start: 40px;
+}
+a {
+  text-decoration: none;
+  color: inherit;
+}
+p {
+  display: block;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0;
+  margin-inline-end: 0;
+}
+div {
+  display: block;
+}
+h4 {
+  display: block;
+  margin-block-start: 1.33em;
+  margin-block-end: 1.33em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+}
+h6 {
+  display: block;
+  text-align: center;
+  font-size: 1.7rem;
+  margin-block-start: 2.33em;
+  margin-block-end: 2.33em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+}
+
+img {
+  vertical-align: middle;
+  border-style: none;
+  overflow-clip-margin: content-box;
+  overflow: clip;
+}
+
+.top-header {
+  width: 100%;
+  background-color: gainsboro;
+}
+
+/* logo and wish-list */
+.logowraper > img {
+  width: 100%;
+}
+.top-image {
+  width: 110px;
+  margin-left: 287px;
+  margin-bottom: 20px;
+}
+
+.wish-list-icon {
+  position: absolute;
+  right: 400px;
+  font-size: 3rem;
+  margin-top: 45px;
+  color: #555555;
+}
+
+.wish-list {
+  position: absolute;
+  right: 288px;
+  margin-top: 35px;
+}
+.wish-list {
+  font-size: 4rem;
+  /* margin-top: 150px; */
+  margin-right: -27px;
+  font-family: "Gill Sans MT";
+  color: #555555;
+  /* background-color: #c9c9c9; */
+}
+
+.wish-list a {
+  font-size: 2rem;
+  color: #555555;
+}
+.wish-list a:hover {
+  color: rgb(0, 157, 255);
+}
+.wish-list span {
+  color: #c9c9c9;
+  font-size: 20px;
+}
+/* End of logo and wish-list */
+
+/* Navigation bar */
+.btn {
+  display: inline-block;
+  width: 268px;
+  text-align: center;
+  padding: 1.5rem 0;
+  font-size: 1.7rem;
+  border-left: 1px solid rgb(212, 212, 212);
+  border-top: 1px solid rgb(212, 212, 212);
+  border-bottom: 1px solid rgb(212, 212, 212);
+  cursor: pointer;
+}
+
+.btn-accent {
+  background-color: #fcfcfcf8;
+}
+
+.navigation {
+  display: flex;
+  justify-content: center;
+  /* position: sticky; */
+  text-align: center;
+  /* top: 0; */
+  align-items: center;
+  justify-items: center;
+  z-index: 99999;
+}
+
+.nav-list {
+  display: flex;
+  list-style-type: none;
+}
+
+.nav-link > a {
+  text-decoration: none;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  color: #555555;
+  font-weight: normal;
+  display: flex;
+  gap: 1rem;
+}
+
+.nav-link > a:hover {
+  color: rgb(0, 157, 255);
+}
+.nav-link > .active {
+  color: rgb(0, 157, 255);
+}
+
+.menu-icon {
+  width: 45px;
+}
+
+.menu-icon > img {
+  width: 100%;
+}
+
+#icon5 {
+  width: 39.7px;
+}
+#nl-5 {
+  border-right: 1px solid rgb(212, 212, 212);
+}
+/* End of Navigation Menu */
+
+/* Banner */
+.banner {
+  width: 86.34%;
+  padding: 3rem 0;
+}
+
+.banner-box {
+  margin-left: 443px;
+  height: 60px;
+  position: relative;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  background-color: #ebebeb;
+}
+
+.product-logo {
+  height: 50px;
+  padding-left: 118rem;
+  margin-left: 1rem;
+  border-radius: 3px;
+  background-color: #eeeeee;
+}
+.product-btn {
+  position: absolute;
+  left: 0;
+  padding-left: 87px;
+}
+.product-logo a {
+  top: 17px;
+  font-size: 2.3rem;
+  font-weight: 600;
+  color: rgb(69, 152, 219);
+}
+
+.product-logo a:hover {
+  color: rgb(0, 167, 255);
+}
+.product-logo a > img {
+  bottom: 1px;
+  left: 40px;
+  width: 40px;
+}
+
+.banner img {
+  position: absolute;
+  width: 1200px;
+  right: 260px;
+}
+/* End of Banner */
+.container {
+  max-width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-left: auto;
+  margin-right: auto;
+  /* background-color: #000; */
+}
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  margin-right: -16px;
+}
+
+.categaries-brand {
+  position: absolute;
+  width: 120px;
+  height: 1000vh;
+  left: 301px;
+  top: 249px;
+  padding: 2rem 0;
+  cursor: pointer;
+}
+
+.brand-pro-list {
+  position: sticky;
+  top: 0;
+  margin: -2rem 0;
+  padding: 2rem 0;
+}
+
+.pro-title-brand {
+  margin-top: -4rem;
+  font-size: 1.5rem;
+  cursor: text;
+}
+
+.brand-pro-list li {
+  margin-top: 1rem;
+  margin-bottom: 2rem;
+}
+
+#cate8 {
+  margin: -1.5rem 0;
+  height: 60px;
+}
